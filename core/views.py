@@ -20,3 +20,6 @@ def signup(request):
     return render(request,'signup.html',{
         'form':form,
     })
+
+def secret_page(request):
+    return render(request,'secret_page.html')
